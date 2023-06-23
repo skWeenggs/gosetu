@@ -1,0 +1,26 @@
+/* .ag-header-group-cell-label, .ag-header-cell-label {
+    display: flex;
+    flex: 1 1 auto;
+    overflow: hidden;
+    align-items: center;
+    text-overflow: ellipsis;
+    align-self: stretch;
+    justify-content: center;
+} */
+
+.bg-conic-gradient {
+    background: linear-gradient(90deg,#44FF9A -.55%,#44B0FF 22.86%,#8B44FF 48.36%,#FF6644 73.33%,#EBFF70 99.34%);
+}
+
+.line-clamp{
+    overflow: hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+}
+.line-clamp1{
+    overflow: hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+}
